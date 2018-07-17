@@ -1,0 +1,4 @@
+1529282528250	Move 'spring-mvc-demo-servlet.xml' to 'WEB-INF'
+1529282530879	Move 'web.xml' to 'WEB-INF'
+1529285838726	Rename resource 'helloworld'
+1529286142844	Delete element

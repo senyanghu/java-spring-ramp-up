@@ -1,0 +1,14 @@
+127.0.0.1 - - [17/Jun/2018:17:53:59 -0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:17:54:00 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 86
+127.0.0.1 - - [17/Jun/2018:18:13:36 -0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:13:36 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:13:43 -0700] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:14:10 -0700] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:14:22 -0700] "GET /spring-mvc-demo/processForm?studentName=david HTTP/1.1" 404 1046
+127.0.0.1 - - [17/Jun/2018:18:46:33 -0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:46:34 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:46:39 -0700] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:46:44 -0700] "GET /spring-mvc-demo/processForm?studentName=David HTTP/1.1" 200 106
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:50:06 -0700] "GET /spring-mvc-demo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:50:06 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 136
+0:0:0:0:0:0:0:1 - - [17/Jun/2018:18:51:02 -0700] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 258
