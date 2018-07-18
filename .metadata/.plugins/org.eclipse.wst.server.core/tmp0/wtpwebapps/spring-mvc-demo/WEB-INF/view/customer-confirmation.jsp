@@ -10,8 +10,14 @@
 </head>
 
 
-<body>The customer is confirmed: ${customer.firstName}
-	${customer.lastName}
+<body>
+	The customer is confirmed: ${customer.firstName} ${customer.lastName}
+
+	<br>
+	<br> Free passes: ${customer.freePasses}
+
+	<br>
+	<br> Free passes: ${customer.postalCode}
 
 </body>
 
