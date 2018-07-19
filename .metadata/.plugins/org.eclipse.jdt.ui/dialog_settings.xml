@@ -32,6 +32,20 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
+	<section name="NewAnnotationWizardPage">
+		<item value="false" key="add_documented"/>
+		<section name="AddTarget">
+			<item value="false" key="enabled"/>
+			<list key="selectedEnums">
+			</list>
+		</section>
+		<section name="AddRetention">
+			<item value="false" key="enabled"/>
+			<list key="selectedEnums">
+				<item value="CLASS"/>
+			</list>
+		</section>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
